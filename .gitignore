@@ -13,7 +13,8 @@ devenv.local.yaml
 ### C++ ###
 # Prerequisites
 *.d
-
+.cache/
+build/
 # Compiled Object files
 *.slo
 *.lo
