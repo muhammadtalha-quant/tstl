@@ -145,16 +145,13 @@ purpose heap overhead:
 
 ## Essential C++ Concepts
 
-Implementing this repository builds competence in the C++ concepts most prized
-in quantitative trading:
+Implementing this repository builds competence in the C++ concepts most matter:
 
-1. **Mechanical Sympathy & Cache Hierarchy:** Understanding L1/L2/L3 cache
-   lines (64 bytes) and designing data structures that avoid pointer chasing.
-2. **Move Semantics & Zero-Copy Passing:** Using `std::move` and rvalue
+1. **Move Semantics & Zero-Copy Passing:** Using `std::move` and rvalue
    references to transfer large market data frames without copying.
-3. **Allocation Discipline:** Avoiding unexpected heap allocations in the
+2. **Allocation Discipline:** Avoiding unexpected heap allocations in the
    critical signal path through pre-sizing (`reserve`) and fixed capacities.
-4. **Compile-Time Polymorphism:** Leveraging templates and type traits to build
+3. **Compile-Time Polymorphism:** Leveraging templates and type traits to build
    generic data structures without the runtime cost of virtual function tables.
 
 ---
